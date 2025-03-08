@@ -1,0 +1,9 @@
+@import "./base.css";
+
+/* global  */
+.container {
+  @apply w-[calc(100%-2rem)] md:max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto;
+}
+.router-link-active {
+  @apply text-blue-500 border;
+}
